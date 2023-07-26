@@ -13,9 +13,14 @@ Após o aumento ser realizado, informe na tela:
     c. O valor do aumento;
     d. O novo salário, após o aumento."""
 
-salario = float(input("Insira o salário atual: "))
+while 1:
+    salario = float(input("Insira o salário atual: "))
+    if salario <= 0:
+        print("Valor inválido. Informe novamente.")
+    else:
+        break
 
-aumento = None
+# aumento = None
 
 if salario > 0 and salario <= 280:
     aumento = 0.2
@@ -25,16 +30,16 @@ elif salario > 700 and salario <= 1500:
     aumento = 0.10
 elif salario > 1500:
     aumento = 0.05
-else:
-    print("Valor inválido")
+# else:
+#    print("Valor inválido")
 
 
 # valor_aumento = salario * aumento
 # novo_salario = salario + aumento
-if aumento:
-    print("="*50)
-    print(f"Salário atual: R${salario:,.2f}")
-    print((f"Percentual de aumento: {aumento * 100:.0f}%"))
-    print(f"Valor do aumento: R${salario * aumento:,.2f}")
-    print(f"Novo salário: R${salario * (1 + aumento):,.2f}")
-    print("="*50)
+# if aumento:
+print("="*50)
+print(f"Salário atual: R${salario:,.2f}")
+print((f"Percentual de aumento: {aumento * 100:.0f}%"))
+print(f"Valor do aumento: R${salario * aumento:,.2f}")
+print(f"Novo salário: R${salario * (1 + aumento):,.2f}")
+print("="*50)
