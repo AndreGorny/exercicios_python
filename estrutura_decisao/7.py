@@ -1,4 +1,8 @@
+# Faça um Programa que leia três números e mostre o maior e o menor deles.
 
-# Ver resolução na aula do dia 21/07
+n = []
 
-só pra marcar em vermelho # Depois apaga saporra
+for i in range(3):
+    n.append(float(input(f"Insira o {i+1}º número: ")))
+
+print(f"{max(n)} é o maior dos 3 número digitados. {min(n)} é o menor.")
