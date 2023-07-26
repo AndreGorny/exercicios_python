@@ -23,8 +23,3 @@ elif media >= 7:
     print(f"Média {media}. Aprovado!")
 else:
     print(f"Média {media}. Reprovado.")
-
-# Outra solução seria:
-
-if media >= 7 and media < 10:
-    print("Aprovado")
