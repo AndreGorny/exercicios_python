@@ -9,7 +9,7 @@ pedido = {}
 total_pedido = 0
 
 while 1:
-    codigo = int(input("Digite o código do produto (ou digite 0" 
+    codigo = int(input("Digite o código do produto (ou digite 0"
                        "para encerrar): "))
     if codigo == 0:
         break
