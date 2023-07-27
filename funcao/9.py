@@ -5,7 +5,7 @@
 
 def reverso(num):
     num = str(num)
-    return num[::-1]
+    return int(num[::-1])
 
 
-print(reverso(127))
+print(type(reverso(127)))
