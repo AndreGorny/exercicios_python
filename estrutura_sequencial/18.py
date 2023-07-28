@@ -11,7 +11,7 @@ velocidade = int(input("Insira a velocidade da internet (em Mbps): "))
 
 tempo = tamanho / velocidade * 8
 
-min = tempo // 60
+min = tempo / 60
 seg = tempo % 60
 
 print(f"O tempo de download será de {int(min)} minuto(s)"
