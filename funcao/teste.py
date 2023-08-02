@@ -17,3 +17,7 @@ print(dir)
 
 list_dir = os.listdir()
 print(list_dir)
+
+a = "teste"
+
+print(a)
