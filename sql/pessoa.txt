@@ -1,0 +1,6 @@
+codigo,nome,endereco,nascimento
+1,José,"Rua do J, numero 10",10/01/2000
+2,Maria,Rua da M,15/02/2001
+3,Eduardo,Avenida do E,20/03/2000
+4,Mônica,Travessa da M,30/04/2000
+5,Magali,Rodovia da M,15/05/1999
