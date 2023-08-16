@@ -1,6 +1,5 @@
 # Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a
 # mesma é uma data válida.
-import datetime
 
 
 def ano_bissexto(ano):
@@ -8,12 +7,6 @@ def ano_bissexto(ano):
         return True
     else:
         return False
-
-
-def data_iso(data):
-    "".join(data)
-    data = datetime.strptime("")
-    return data
 
 
 mes_31 = [1, 3, 5, 7, 8, 10, 12]
@@ -47,28 +40,5 @@ while 1:
     elif mes not in mes_31 and dia >= 31 or mes in mes_31 and dia > 31:
         print("Data inválida. Repita")
     else:
-        data_iso(data)
-        print(data)
-#        print("".join(data))
-
-ajustar data iso
-
-
-"""    if ano_bissexto(ano) is True:
-        if mes == 2 and dia > 29:
-            print("Data inválida. Repita")
-            continue
-        elif mes not in mes_31 and dia >= 31 or mes in mes_31 and dia > 31:
-            print("Data Inválida")
-            continue
-
-    if ano_bissexto is False:
-        if mes == 2 and dia > 28:
-            print("Data inválida.")
-            continue
-        elif mes not in mes_31 and dia >= 31 or mes in mes_31 and dia > 31:
-            print("Data Inválida")
-            continue
-
-    else:
-        print("".join(data))"""
+        print("".join(data))
+        break
